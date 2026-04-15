@@ -27,4 +27,17 @@ sizeof(): Returns the size of a data type in bytes.
 & (Address-of) and * (Dereference): Essential for Pointer manipulation.
 , (Comma): Separates and evaluates multiple expressions.
 . (Dot) and -> (Arrow): Used to access members of structures or unions.
+
 */
+//  aaiye one by one dekhte hai opratore ko achhe se samajhkar 
+
+#include<stdio.h>
+int main()
+{
+    int a = 3;
+    int b = 8;
+    int c = a=b;
+
+    printf("only example: %d", c);
+    return 0;
+}
